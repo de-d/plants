@@ -2,13 +2,13 @@
 @import "nullstyle.scss";
 /*--------------------------------------------------*/
 
-$backcol1: #EDF2EC;
-$backcol2: #FFFFFF;
+$backcol1: #edf2ec;
+$backcol2: #ffffff;
 
-$greencol: #499A18;
-$prangecol: #E06733;
-$ffIter: 'Inter', sans-serif;
-$ffInika: 'Inika', sans-serif;
+$greencol: #499a18;
+$prangecol: #e06733;
+$ffIter: "Inter", sans-serif;
+$ffInika: "Inika", sans-serif;
 
 /*--------------------------------------------------*/
 .wrapper {
@@ -18,7 +18,7 @@ $ffInika: 'Inika', sans-serif;
    min-height: 100%;
 }
 /*--------------------------------------------------*/
-[class*='__container'] {
+[class*="__container"] {
    max-width: 1222px;
    margin: 0px auto;
    padding: 0px 15px;
@@ -56,14 +56,16 @@ $ffInika: 'Inika', sans-serif;
    padding: 0px 0px 0px 671px;
 }
 
-.menu__body {}
+.menu__body {
+}
 
 .menu__list {
    display: flex;
    gap: 46px;
 }
 
-.menu__item {}
+.menu__item {
+}
 
 .menu__link {
    font-family: $ffInika;
@@ -72,8 +74,8 @@ $ffInika: 'Inika', sans-serif;
    font-size: 16px;
    line-height: 50px;
    color: #010201;
-   &:hover{
-      color: #E06733;
+   &:hover {
+      color: #e06733;
       font-weight: 700;
    }
 }
@@ -107,11 +109,12 @@ $ffInika: 'Inika', sans-serif;
    font-size: 45px;
    line-height: 50px;
    color: #717171;
-   span{
+   span {
       color: $greencol;
    }
 }
-.green-span {}
+.green-span {
+}
 
 .home__text {
    font-family: $ffIter;
@@ -138,7 +141,7 @@ $ffInika: 'Inika', sans-serif;
    border-radius: 10px;
 
    &:hover {
-      color: #FFFFFF;
+      color: #ffffff;
       background: $prangecol;
    }
 }
@@ -169,13 +172,13 @@ $ffInika: 'Inika', sans-serif;
    font-weight: 400;
    font-size: 40px;
    line-height: 52px;
-   color: #499A18;
+   color: #499a18;
    span {
       color: $prangecol;
    }
-
 }
-.orange-span{}
+.orange-span {
+}
 
 .aboutus__text {
    font-family: $ffIter;
@@ -186,7 +189,8 @@ $ffInika: 'Inika', sans-serif;
    color: #636060;
    padding: 40px 0px 0px 0px;
 }
-.aboutus__img {}
+.aboutus__img {
+}
 
 /*----------------------Service----------------------------*/
 
@@ -227,12 +231,11 @@ $ffInika: 'Inika', sans-serif;
    line-height: 26px;
    color: $prangecol;
 
-
    padding: 12px 40px;
    border: 1px solid $prangecol;
    border-radius: 5px;
    &:hover {
-      color: #FFFFFF;
+      color: #ffffff;
       background: $prangecol;
    }
 }
@@ -248,18 +251,17 @@ $ffInika: 'Inika', sans-serif;
    height: 450px;
    left: 100px;
    top: 224px;
-
 }
 .service__item1 {
 }
 .item__img {
 }
-.item__info{
+.item__info {
    display: flex;
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
-   border: 1px solid #E3E1D5;
+   border: 1px solid #e3e1d5;
    border-radius: 0px 0px 20px 20px;
 }
 .item__title {
@@ -278,4 +280,175 @@ $ffInika: 'Inika', sans-serif;
    line-height: 20px;
    color: #717171;
    padding: 10px 30px 36px 30px;
+}
+
+/*----------------------Price----------------------------*/
+.price {
+}
+.price__container {
+}
+.price__content {
+   display: flex;
+   padding: 40px 0px 115px 0px;
+}
+.price__prices-block {
+}
+.prices-block__title {
+   font-family: $ffIter;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+   color: #000000;
+}
+.prices-block__buttons {
+   display: flex;
+   flex-direction: column;
+   row-gap: 32px;
+   padding: 34px 41px;
+   margin: 60px 0px 0px 0px;
+   border-radius: 20px;
+   border: 1px solid #e3e1d5;
+}
+.prices-block__button {
+   font-family: $ffIter;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+   color: #000000;
+   width: 250px;
+   height: 50px;
+   background: $backcol1;
+   border-radius: 20px;
+}
+.prices-block__span {
+}
+.price__info-block {
+   display: flex;
+   flex-direction: column;
+   text-align: right;
+   padding: 0px 0px 0px 408px;
+}
+.info-block__title {
+   width: 452px;
+   font-family: $ffIter;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+   text-align: right;
+   color: #000000;
+   span {
+      color: $greencol;
+   }
+}
+.green-span {
+}
+
+.info-block__buttons {
+   padding: 38px 0px 0px 0px;
+}
+
+.info-block__button {
+   width: 180px;
+   background-color: $backcol2;
+}
+
+.info-block__img {
+   padding: 39px 0px 0px 0px;
+}
+
+/*----------------------Contacts----------------------------*/
+
+.contacts {
+   background-color: $backcol1;
+}
+
+.contacts__container {
+   padding: 53px 0px 0px 0px;
+}
+.contacts__content {
+   display: flex;
+}
+.contacts__img {
+   img {
+      width: 400px;
+      height: 497px;
+   }
+}
+.contacts__title {
+   font-family: $ffInika;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+   color: $greencol;
+   padding: 7px 0px 0px 98px;
+}
+.contacts__select-box {
+   padding: 95px 0px 0px 64px;
+}
+.contacts__select {
+   width: 450px;
+   height: 50px;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+   letter-spacing: 0.05em;
+   color: #717171;
+   justify-content: space-evenly;
+   background: #d6e7d2;
+   padding: 5px 0px 5px 20px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 0px;
+}
+
+/*----------------------Footer----------------------------*/
+.footer {
+}
+.footer__container {
+}
+.footer__content {
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+   padding: 40px 0px;
+   font-family: $ffIter;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+   color: #000000;
+   a {
+      color: #000000;
+   }
+}
+
+.footer__github {
+}
+.footer__year {
+}
+.github {
+}
+.footer__rsschool {
+}
+.footer__rs {
+}
+
+.footer__socialmedia {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+
+.footer__icon {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.icon {
 }
